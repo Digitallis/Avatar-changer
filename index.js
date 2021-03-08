@@ -17,6 +17,11 @@ client.on('ready', () => {
     client.user.setAvatar(the_random_line_text);
     console.log('pfp changed')
   });
+  
+    var job = new CronJob('* * * * *', function() {
+      console.log('BFM')
+    });;
+
   job.start();
 });
 
