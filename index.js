@@ -18,7 +18,7 @@ client.on('ready', () => {
     console.log('pfp changed')
   });
   
-    var job = new CronJob('5 * * * *', function() {
+    var job = new CronJob('7 12 * * *', function() {
       console.log('BFM')
     });;
 
