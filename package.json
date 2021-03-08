@@ -1,0 +1,31 @@
+{
+  "name": "discordautomation",
+  "version": "1.0.0",
+  "description": "change profile picture of user",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.js.old": "^11.6.5",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digitallis/Avatar-changer.git"
+  },
+  "keywords": [
+    "discord",
+    "avatar"
+  ],
+  "author": "Teknix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Digitallis/Avatar-changer/issues"
+  },
+  "homepage": "https://github.com/Digitallis/Avatar-changer#readme"
+}
