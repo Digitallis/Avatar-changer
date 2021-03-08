@@ -1,2 +1,2 @@
 # Avatar-changer
-Changes your discord avatar every day at 20, Against TOS btw :)
+Changes your discord avatar every day at 2000, Against TOS btw :)
