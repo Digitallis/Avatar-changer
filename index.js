@@ -12,15 +12,17 @@ function getRandomLine(filename) {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-<<<<<<< HEAD
   var job = new CronJob('0 */10 * * *', function() {
-=======
-  var job = new CronJob('0 */9 */1 * *', function() {
->>>>>>> main
     var the_random_line_text = getRandomLine('./avatars.txt')
     client.user.setAvatar(the_random_line_text);
-    console.log('pfp changed')
+    console.log(`Avatar changed changed to ${the_random_line_text}`)
   });
+  var pog = new CronJob('0 */22 * * *', function(){
+    var the_random_line_text = getRandomLine('./avatars.txt')
+    client.user.setAvatar(the_random_line_text);
+    console.log(`Avatar changed changed to ${the_random_line_text}`)
+  })
+
   job.start();
 });
 
