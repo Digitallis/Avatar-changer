@@ -12,7 +12,7 @@ function getRandomLine(filename) {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  var job = new CronJob('0 */8 * * *', function() {
+  var job = new CronJob('0 */4 * * *', function() {
     var the_random_line_text = getRandomLine('./avatars.txt')
     client.user.setAvatar(the_random_line_text);
     console.log(`Avatar changed changed to ${the_random_line_text}`)
