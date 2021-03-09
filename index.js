@@ -12,7 +12,7 @@ function getRandomLine(filename) {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  var job = new CronJob('0 */9 */1 * *', function() {
+  var job = new CronJob('0 */10 * * *', function() {
     var the_random_line_text = getRandomLine('./avatars.txt')
     client.user.setAvatar(the_random_line_text);
     console.log('pfp changed')
