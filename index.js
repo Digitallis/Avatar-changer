@@ -22,9 +22,4 @@ client.on('ready', () => {
     client.user.setAvatar(the_random_line_text);
     console.log(`Avatar changed changed to ${the_random_line_text}`)
   })
-  var job = new CronJob('20 12 * * *', function() {
-    client.users.get('388377435269496832').send('nič');
-    console.log(`Barle has been annoyed`)
-  })
-
 client.login(process.env.BOT_TOKEN)});
