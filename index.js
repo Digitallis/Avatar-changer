@@ -1,4 +1,4 @@
-const Discord = require('discord.js.old');
+const Discord = require('discord.js-v11');
 const client = new Discord.Client();
 const fs = require('fs');
 const CronJob = require('cron').CronJob;
